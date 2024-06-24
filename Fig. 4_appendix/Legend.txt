@@ -1,0 +1,4 @@
+The darker blue border is the node region
+The lighter blue border is the small-world network three-hop regions
+Red fill indicates that the performance of the changed region deteriorates after removing this Extra node
+Green fill indicates that the performance of the changed region improves after removing this Extra node
