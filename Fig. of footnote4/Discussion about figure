@@ -1,0 +1,12 @@
+We conducted additional experiments to measure the angle differences between gradients from different tasks by cosine similarity.
+
+The cosine similarity is a measure of the angle between two vectors, which in this case represents the direction of the gradients. 
+If the gradients for two task outputs have the same direction (i.e., they are pointing in the same direction), the cosine similarity 
+will be close to 1, and the direction similarity will be close to 1. Conversely, if the gradients are pointing in opposite directions, 
+the cosine similarity will be close to -1, and the direction similarity will be close to 0. By analyzing the direction similarity between 
+the gradients for the different task outputs, we can gain insights into whether the gradients are aligned or in conflict with each other.
+
+Our findings showed that the gradients were, more often than not, either aligned or only mildly conflicting, which supports the effectiveness 
+of our approach in this particular context. Specifically, only the gradients 1 and 3 exhibited negative cosine 
+similarity during the early stages of training. However, after 50 epochs, all similarities turned positive and remained constant. Notably, 
+gradients 2 and 3 demonstrated the highest alignment, with a cosine similarity exceeding 0.8.
