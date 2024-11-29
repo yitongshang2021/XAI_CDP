@@ -1,3 +1,9 @@
+Original version:
 blue line: ground truth
 orange line: single-task learning
 green line: multi-task learning
+
+Revised version(28/11/2024):
+blue line: single-task learning 
+green line: multi-task learning
+orange line by dashed: ground truth
